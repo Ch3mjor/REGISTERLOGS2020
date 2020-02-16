@@ -1,0 +1,9 @@
+[settings]
+DEBUG = True
+SECRET_KEY = *5oonp$ahb7&g!0ig&a=)ih@)qqyj$qk8v6u^yo0d8lg!$j_!4
+
+DATABASE_URL = postgresql://<user>:<password>@localhost:5432/requestlog
+
+DATABASE_CONN_MAX_AGE = 500
+
+MEMCACHED_SERVER = 127.0.0.1:11211

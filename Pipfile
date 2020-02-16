@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==2"
+python-decouple = "*"
+djangorestframework = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+django-ipware = "*"
+pyyaml = "*"
+ua-parser = "*"
+user-agents = "*"
+django-user-agents = "*"
+python-memcached = "*"
+waitress = "*"
+
+[requires]
+python_version = "3.6"
