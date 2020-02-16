@@ -48,7 +48,7 @@ python manage.py runserver
 waitress-serve --threads 4 --host 0.0.0.0 --port 5000 requestlog.wsgi:application
 ```
 6.Paths
-"""
-/logs
+'''
+/log
 #To see previous logs stored in the DB.
-"""
+'''
